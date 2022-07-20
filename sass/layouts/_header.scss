@@ -1,0 +1,18 @@
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header--bottomline {
+    border-bottom: 1px solid #cecece;
+}
+.logo--dark {
+    color: #000000;
+}
+
+.header__logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    margin-right: 93px;
+}

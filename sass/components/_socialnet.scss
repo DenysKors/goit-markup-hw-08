@@ -1,0 +1,43 @@
+.socialnet {
+    display: flex;
+    justify-content: center;
+}
+
+.socialnet__item {
+    width: 44px;
+    height: 44px;
+
+    &:not(:last-child) {
+    margin-right: 10px;
+    }
+}
+
+.socialnet__link {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    transition: background-color var(--main-transition);
+    
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    }
+}
+
+.socialnet__icon {
+    fill: #afb1b8;
+
+    transition: fill var(--main-transition);
+}
+
+.socialnet__link:hover .socialnet__icon,
+.socialnet__link:focus .socialnet__icon {
+    fill: #ffffff;
+}
