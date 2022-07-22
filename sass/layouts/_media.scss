@@ -1,5 +1,6 @@
 .media {
-    padding-top: 12px;
+    // padding-top: 12px;
+    padding-top: 60px;
 }
 
 .media__title {
@@ -15,8 +16,14 @@
 
 .media__list {
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
+
+// .media__list {
+//     display: flex;
+//     gap: 10px;
+// }
 
 .media__item {
     width: 44px;

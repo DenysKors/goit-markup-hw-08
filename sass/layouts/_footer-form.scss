@@ -1,5 +1,6 @@
 .mailing {
-    padding-top: 12px;
+    // padding-top: 12px;
+    padding-top: 60px;
 }
 
 .mailing__title {
@@ -13,13 +14,14 @@
     color: #ffffff;
 }
 
-.footer-form {
-    display: flex;
-    gap: 12px;
-}
+// .footer-form {
+//     display: flex;
+//     gap: 12px;
+// }
 
 .footer-form__input {
     padding: 15px 16px;
+    margin-bottom: 20px;
     min-width: 358px;
 
     font-weight: 400;

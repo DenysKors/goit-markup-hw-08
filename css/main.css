@@ -55,18 +55,32 @@ img {
 }
 
 .container {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
 .logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
@@ -370,11 +384,12 @@ img {
 }
 
 .hero {
+  display: none;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
+  max-width: 480px;
   max-height: 600px;
   text-align: center;
   background-color: #2f303a;
@@ -395,21 +410,6 @@ img {
 
 .features {
   padding-bottom: 0;
-}
-
-.features__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.features__item {
-  width: 270px;
-}
-.features__item:not(:nth-child(4n)) {
-  margin-right: 30px;
 }
 
 .features__icon {
@@ -442,6 +442,12 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .activities {
+    display: none;
+  }
 }
 
 .activities__title {
@@ -655,14 +661,10 @@ img {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
-
-.footer--info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+@media screen and (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 .footer__logo {
@@ -699,11 +701,11 @@ img {
 }
 
 .address__item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .media {
-  padding-top: 12px;
+  padding-top: 60px;
 }
 
 .media__title {
@@ -720,6 +722,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 
@@ -754,7 +759,7 @@ img {
 }
 
 .mailing {
-  padding-top: 12px;
+  padding-top: 60px;
 }
 
 .mailing__title {
@@ -767,15 +772,9 @@ img {
   color: #ffffff;
 }
 
-.footer-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 12px;
-}
-
 .footer-form__input {
   padding: 15px 16px;
+  margin-bottom: 20px;
   min-width: 358px;
   font-weight: 400;
   font-size: 16px;

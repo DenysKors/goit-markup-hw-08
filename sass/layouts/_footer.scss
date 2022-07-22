@@ -3,12 +3,16 @@
     padding-bottom: 60px;
 
     background-color: #2f303a;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 }
 
-.footer--info {
-    display: flex;
-    justify-content: space-between;
-}
+// .footer--info {
+//     display: flex;
+//     justify-content: space-between;
+// }
 
 .footer__logo {
     display: inline-block;

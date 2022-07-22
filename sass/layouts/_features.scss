@@ -2,18 +2,18 @@
     padding-bottom: 0;
 }
 
-.features__list {
-    display: flex;
-    flex-wrap: wrap;
-}
+// .features__list {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
 
-.features__item {
-    width: 270px;
+// .features__item {
+//     width: 270px;
 
-    &:not(:nth-child(4n)) {
-        margin-right: 30px;
-    }
-}
+//     &:not(:nth-child(4n)) {
+//         margin-right: 30px;
+//     }
+// }
 
 .features__icon {
     display: flex;
