@@ -1,8 +1,10 @@
 .clients__title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    // margin-bottom: 50px;
 
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
+    // font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
@@ -11,11 +13,13 @@
 .clients__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
 .clients__item {
-    width: 170px;
+    // width: 170px;
+    width: 210px;
     height: 92px;
 }
 
