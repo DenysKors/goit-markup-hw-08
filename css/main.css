@@ -408,8 +408,17 @@ img {
   color: #ffffff;
 }
 
-.features {
-  padding-bottom: 0;
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.features__item {
+  width: 450px;
 }
 
 .features__icon {
@@ -435,6 +444,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .features__text {

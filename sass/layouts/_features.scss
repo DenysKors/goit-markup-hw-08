@@ -1,19 +1,17 @@
-.features {
-    padding-bottom: 0;
+// .features {
+//     padding-bottom: 0;
+// }
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-// .features__list {
-//     display: flex;
-//     flex-wrap: wrap;
-// }
-
-// .features__item {
-//     width: 270px;
-
-//     &:not(:nth-child(4n)) {
-//         margin-right: 30px;
-//     }
-// }
+.features__item {
+    // width: 270px;
+    width: 450px;
+}
 
 .features__icon {
     display: flex;
@@ -35,6 +33,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .features__text {
