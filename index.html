@@ -37,12 +37,13 @@
 							<a class="site-nav__link" href="">Контакты</a>
 						</li>
 					</ul>
-					<button type="button">
-						<svg width="40" height="40">
-							<use href="./images/icons.svg#icon-mobilemenu-btn"></use>
-							<use href="./images/icons.svg#icon-mobilemenu-close-btn"></use>
+					<button class="mobile-menu__btn" type="button" data-menu-button>
+						<svg class="mobile-menu__icon" width="40" height="40">
+							<use class="mobile-menu__burger" href="./images/icons.svg#icon-mobilemenu-btn"></use>
+							<use class="mobile-menu__close" href="./images/icons.svg#icon-mobilemenu-close-btn"></use>
 						</svg>
 					</button>
+					<div class="mobile-menu"> </div>
 				</nav>
 				<div class="contacts">
 					<a class="contacts__link" href="mailto:info@devstudio.com">
@@ -488,5 +489,6 @@
 			</div>
 		</footer>
 		<script src="./js/modal.js"></script>
+		<script src="./js/mobile-menu.js"></script>
 	</body>
 </html>
