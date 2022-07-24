@@ -860,6 +860,13 @@ img {
           justify-content: center;
   gap: 30px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 
 .portfolio-list__item {
   width: 450px;
