@@ -622,6 +622,11 @@ img {
 .features__item {
   width: 450px;
 }
+@media screen and (min-width: 768px) {
+  .features__item {
+    width: 354px;
+  }
+}
 
 .features__icon {
   display: -webkit-box;
@@ -646,7 +651,11 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .features__title {
+    text-align: center;
+  }
 }
 
 .features__text {
