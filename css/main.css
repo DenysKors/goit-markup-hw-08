@@ -749,6 +749,11 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .team__title {
+    font-size: 36px;
+  }
+}
 
 .team__list {
   display: -webkit-box;
@@ -774,10 +779,20 @@ img {
     width: 354px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team__member {
+    width: 270px;
+  }
+}
 
 .team__description {
   padding-top: 30px;
   padding-bottom: 24px;
+}
+@media screen and (min-width: 1200px) {
+  .team__description {
+    padding-bottom: 30px;
+  }
 }
 
 .team__name {
