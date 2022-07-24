@@ -4,8 +4,16 @@
 
     background-color: #2f303a;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
         text-align: center;
+    }
+}
+
+.footer--info {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 

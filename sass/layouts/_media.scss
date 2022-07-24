@@ -1,6 +1,8 @@
 .media {
     // padding-top: 12px;
+    @media screen and (max-width: 767px) {
     padding-top: 60px;
+    }  
 }
 
 .media__title {
@@ -19,11 +21,6 @@
     justify-content: center;
     gap: 10px;
 }
-
-// .media__list {
-//     display: flex;
-//     gap: 10px;
-// }
 
 .media__item {
     width: 44px;
