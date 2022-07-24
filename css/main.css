@@ -420,6 +420,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header--bottomline {
@@ -434,16 +437,17 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+@media screen and (min-width: 768px) {
+  .header__logo {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .header__logo {
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
   }
-}
-
-.site-nav {
-  margin-left: auto;
 }
 
 .site-nav__list {
@@ -497,10 +501,11 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
 }
 @media screen and (max-width: 767px) {
   .contacts {
@@ -512,17 +517,14 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
@@ -532,9 +534,6 @@ img {
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
-.contacts__link:not(:first-child) {
-  margin-left: 50px;
-}
 
 .contacts__icon {
   margin-right: 10px;
@@ -542,6 +541,7 @@ img {
 }
 
 .hero {
+  display: none;
   padding-top: 118px;
   padding-bottom: 110px;
   margin-left: auto;
