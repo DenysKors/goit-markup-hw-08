@@ -1,6 +1,8 @@
-// .features {
-//     padding-bottom: 0;
-// }
+@media screen and (min-width: 1200px) {
+    .features {
+        padding-bottom: 0;
+    }
+}
 
 .features__list {
     display: flex;
@@ -9,11 +11,14 @@
 }
 
 .features__item {
-    // width: 270px;
     width: 450px;
 
     @media screen and (min-width: 768px) {
         width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
     }
 }
 

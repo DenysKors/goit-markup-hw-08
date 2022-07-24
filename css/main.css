@@ -635,6 +635,11 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-bottom: 0;
+  }
+}
 .features__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,6 +655,11 @@ img {
 @media screen and (min-width: 768px) {
   .features__item {
     width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .features__item {
+    width: 270px;
   }
 }
 
