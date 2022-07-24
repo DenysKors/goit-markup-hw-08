@@ -6,14 +6,9 @@
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
-}
 
-// .logo {
-//     font-family: "Raleway";
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color: var(--accent-color);
-//     text-decoration: none;
-// }
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+}

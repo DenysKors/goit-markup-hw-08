@@ -1,8 +1,11 @@
 .media {
-    // padding-top: 12px;
     @media screen and (max-width: 767px) {
     padding-top: 60px;
-    }  
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 12px;
+    }
 }
 
 .media__title {
