@@ -255,6 +255,15 @@ img {
   gap: 15px;
   margin-bottom: 40px;
 }
+@media screen and (min-width: 768px) {
+  .filter-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+}
 
 .backdrop {
   position: fixed;
@@ -853,7 +862,17 @@ img {
 }
 
 .portfolio-list__item {
-  width: 370px;
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-list__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-list__item {
+    width: 370px;
+  }
 }
 
 .portfolio-list__link {
