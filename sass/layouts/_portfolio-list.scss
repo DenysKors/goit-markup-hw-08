@@ -13,6 +13,8 @@
 .portfolio-list__item {
     width: 450px;
 
+    display: flex;
+
     @media screen and (min-width: 768px) {
         width: 354px;
     }
@@ -23,7 +25,9 @@
 }
 
 .portfolio-list__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+
     text-decoration: none;
 
     transition: box-shadow var(--main-transition);
@@ -52,6 +56,8 @@
 
 .portfolio-list__border {
     padding: 20px 24px;
+
+    flex-grow: 1;
 
     border: 1px solid #eeeeee;
     border-top: none;
