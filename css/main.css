@@ -799,6 +799,7 @@ img {
 @media screen and (min-width: 1200px) {
   .team__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
